@@ -1,11 +1,11 @@
 # Practica-Instrucciones
-# Trabajo Práctico: Testeo de Instrucciones STX4
+# Trabajo Práctico: Testeo de Instrucciones 
 
 En este documento se detallan  casos de prueba diseñados para testear el correcto funcionamiento de las instrucciones de la arquitectura de la CPU RTM32. Se agruparon instrucciones complementarias en cada caso para verificar no solo el funcionamiento aislado, sino también la interacción entre la ALU, los registros y la memoria.
 
 Las instrucciones testeadas son (15 de momento): `LUI` (mediante `ORI/H`), `ORI`, `XOR`, `NOR`, `ADDI`, `SUB`, `SRA`, `SW`, `SB`, `LHU`, `BEQ`, `BGT`, `SLTI`, `J`, `JR`.
 
-Para cada caso se provee la lógica en ensamblador, la traducción exacta a código máquina hexadecimal (respetando la codificación de formatos R, I, L y J de STX4) y los comandos de Telnet para inyectar en el debugger virtual de rtm32.
+Para cada caso se provee la lógica en ensamblador, la traducción exacta a código máquina hexadecimal (respetando la codificación de formatos R, I, L y J) y los comandos de Telnet para inyectar en el debugger virtual de rtm32.
 
 ---
 
